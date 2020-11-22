@@ -9,8 +9,6 @@ branches: # 指定要构建的分支
   - develop
 
 install: # 在安装项目环境阶段需要运行的命令，一条一行，类似的还有 before_install
-  - npm install -g hexo
-  - npm install -g hexo-cli
   - npm install
   - sed -i'' "s~git@github.com:~https://s~git@github.com:~https://${GIT_REPO_TOKEN}@github.com/~" _config.yml
 
