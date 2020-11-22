@@ -10,7 +10,7 @@ branches: # 指定要构建的分支
 
 install: # 在安装项目环境阶段需要运行的命令，一条一行，类似的还有 before_install
   - npm install
-  - sed -i'' "s~git@github.com:~https://s~git@github.com:~https://${GIT_REPO_TOKEN}@github.com/~" _config.yml
+  - sed -i'' "s~git@github.com:~https://s~git@github.com:~https://${GH_TOKEN}@github.com/~" _config.yml
 
 script: # 在构建阶段需要运行的命令，一条一行，类似的还有 before_script、after_script
   - hexo clean
