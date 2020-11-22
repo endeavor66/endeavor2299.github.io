@@ -27,7 +27,7 @@ git remote add origin '远程库地址'
 
 （[Travis CI - 官网](https://travis-ci.org/)）
 
-![1606047440178](C:\Users\endeavor\AppData\Roaming\Typora\typora-user-images\1606047440178.png)
+![1606047440178](http://qk779077q.hn-bkt.clouddn.com/hexo_travis_img1.png)
 
 ### 4、GitHub添加Token "GH_TOKEN" 。
 
@@ -35,11 +35,11 @@ git remote add origin '远程库地址'
 
 1）头像 -> settings -> Developer settings -> Personal access tokens -> Generate new token
 
-![1606047707789](C:\Users\endeavor\AppData\Roaming\Typora\typora-user-images\1606047707789.png)
+![1606047707789](http://qk779077q.hn-bkt.clouddn.com/hexo_travis_img2.png)
 
 2）填写 token 名，勾选权限（repo 仓库的操作权限，包括读写文件）
 
-![1606047799281](C:\Users\endeavor\AppData\Roaming\Typora\typora-user-images\1606047799281.png)
+![1606047799281](http://qk779077q.hn-bkt.clouddn.com/hexo_travis_img3.png)
 
 ### 5、添加.travis.yml文件
 
@@ -102,4 +102,4 @@ git push origin develop
 
 + 回到 travis ci 页面，会发现自动构建执行
 
-![1606048564143](C:\Users\endeavor\AppData\Roaming\Typora\typora-user-images\1606048564143.png)
+![1606048564143](http://qk779077q.hn-bkt.clouddn.com/hexo_travis_img4.png)
