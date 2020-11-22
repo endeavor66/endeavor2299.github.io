@@ -58,17 +58,18 @@ $ hexo s  #（浏览器输入：localhost:4000即可查看）
 ### 4、Hexo 部署
 
 ``` bash
-# 1、新建仓库，名称必须为：{github用户名}.github.io
+# 1、安装 hexo-githubPage 插件
+npm install --save hexo-deployer-git
 
-# 2、复制该仓库的路径
+# 2、新建仓库，名称必须为：{github用户名}.github.io
 
-# 3、编辑 blog/_config.yml文件
+# 3、复制该仓库的路径
+
+# 4、编辑 blog/_config.yml文件
 deploy:
   type: 'git'
   repo: '仓库地址'
   branch: '分支名'
-
-# 4、保存退出
 
 # 5、部署到github page
 $ hexo d
