@@ -1,7 +1,7 @@
 # .tarvis.yml
 language: node_js # 指定语言环境
 node_js:
-  - "6"
+#   - "6"
   - "12"
   - "13" # 指定 NodeJS 版本
 
